@@ -1,0 +1,50 @@
+footer a:hover {
+    color: #ffc107 !important;
+}
+
+.nav-link {
+    position: relative;
+    padding-bottom: 5px;
+}
+
+/* underline only for active link */
+.active-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ffc107;
+}
+
+/* Hover effect */
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Active link underline */
+.active-link::after {
+    width: 100%;
+}
+
+.invoice-box {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+.table th {
+    background: #f8f9fa;
+}
+
+.signature {
+    height: 80px;
+}
+
+/* Pdf adjust height */
+#invoiceBill{
+    padding-bottom:60px;
+}
